@@ -1,0 +1,21 @@
+<article>
+	<header>
+		<h1>Statistieken van de Belgen in het buitenland</h1>
+		<input type="text" ng-model="filter.name" /> <br />
+		<ul>
+			<li
+				ng-repeat="player in players | filter:filter.name | orderBy:'score'">{{player.name}}
+				van {{player.team}}</li>
+		</ul>
+		Naam speler:<br /> <input type="text" ng-model="newPlayer.name" /> <br />
+		Team speler:<br /> <input type="text" ng-model="newPlayer.team" /> <br />
+		Score:<br /> <input type="text" ng-model="newPlayer.score" />
+		<br/>
+		<button ng-click="addPlayer()">Add Player</button>
+	</header>
+	<section></section>
+	<section></section>
+	<footer> </footer>
+</article>
+
+<aside>Betje reklam</aside>

@@ -1,0 +1,39 @@
+<article>
+    <header>
+        <h1>Gedetailleerde Twitter pagina</h1>
+        <p>Onze Belgen zijn actiever en actiever in het buitenland. Dikwijls niet zomaar als figuranten, maar als sterren van hun team! Hier kan je elk van hen op een gemakkelijke manier volgen. Zie hoe ze week na week het verschil maken in alle Europese competities.</p>
+    </header>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+    <footer>
+
+    </footer>
+</article>
+
+<aside>
+    <table class="table">
+        <thead>
+            <h3>Belgian's got twittertalent</h3>
+            <h4>Latest tweets of our European heroes</h4>
+        </thead>
+        <tbody>
+            <div class="row" data-ng-repeat="tweet in tweets">
+                <div class=".col-md-1">
+                    <img src="{{tweet.profileImageUrl}}">
+                </div>
+                <div class="col-md-11">
+                    <div class="row">
+                        {{tweet.user.name}} @{{tweet.fromUser}}
+                    </div>
+                    <div class="row">
+                        {{tweet.text}}
+                    </div>
+                </div>
+            </div>
+        </tbody>
+    </table>
+</aside>

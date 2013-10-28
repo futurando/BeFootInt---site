@@ -1,0 +1,52 @@
+<article>
+    <header>
+        <h1 data-i18n="Home_A1_S1_Title">Homepage article header title</h1>
+
+        <p data-i18n="Home_A1_S1_Text_1">Homepage article header text 1</p>
+    </header>
+    <section>
+        <h2 data-i18n="Home_A1_S2_Title">De sterren van deze week</h2>
+
+        <p data-i18n="Home_A1_S2_Text_1">Welke Belgen zijn hot deze week? Gescoord? Assists? Clean sheet?</p>
+
+        <div data-ng-repeat="tweet in tweets">
+            {{ tweet.text }}
+        </div>
+
+        <div data-carousel data-interval="3000">
+            <div data-slide ng-repeat="player in playersList" active="player.active">
+                <img ng-src="{{player.pic}}" style="margin: auto;">
+
+                <div class="carousel-caption">
+                    <h4>{{player.name}}</h4>
+
+                    <p>{{player.team}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 data-i18n="Home_A1_S3_Title">Nieuwtjes over onze internationals</h2>
+
+        <p data-i18n="Home_A1_S3_Text_1">Scrape newssites and search for news about the Belgians.</p>
+    </section>
+    <footer>
+        <h3 data-i18n="Home_A1_S4_Title">Wil je hier reclaame maken?</h3>
+
+        <p data-i18n="Home_A1_S4_Text_1"><a href="#/contact/publicity">Geef ons een seintje</a></p>
+    </footer>
+</article>
+
+<aside>
+    <h3 data-i18n="Home_A2_S1_Title">Belgisch twittertalent</h3>
+
+    <p data-i18n="Home_A2_S1_Text_1">De laatste tweets van onze helden in het buitenland</p>
+    <a class="twitter-timeline" href="https://twitter.com/BeFootInt/befootint" data-widget-id="381402644859727872">
+        Please fix your internet connection to see the most recent tweets of our Belgian Stars.</a>
+    <!--        <h3>Reclame</h3>
+            <p>In deze blok zetten we publiciteit.</p>
+            <p>Deze blok zullen we hopelijk vlug upvullen. :-)
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.<br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sodales urna non odio egestas tempor. Nunc vel vehicula ante. Etiam bibendum iaculis libero, eget molestie nisl pharetra in. In semper consequat est, eu porta velit mollis nec. Curabitur posuere enim eget turpis feugiat tempor.
+            </p>-->
+</aside>

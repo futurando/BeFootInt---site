@@ -1,0 +1,21 @@
+<data-carousel-v2></data-carousel-v2>
+
+<!--<div carousel interval="3000">
+    <div slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" style="margin: auto;">
+        <div class="carousel-caption">
+            <h4>Slide {{$index}}</h4>
+            <p>{{slide.text}}</p>
+        </div>
+    </div>
+</div>-->
+
+<div carousel interval="3000">
+    <div slide ng-repeat="player in playersList" active="player.active">
+        <img ng-src="{{player.pic}}" style="margin: auto;">
+        <div class="carousel-caption">
+            <h4>{{player.name}}</h4>
+            <p>{{player.team}}</p>
+        </div>
+    </div>
+</div>

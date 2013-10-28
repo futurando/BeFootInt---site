@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "Romelu Lukaku",
+        "team": "Everton",
+        "pic": "img/players/lukaku.jpg"
+    },
+    {
+        "id": 1,
+        "name": "Thibault Courtois",
+        "team": "Atletico Madrid",
+        "pic": "img/players/courtois.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Eden Hazard",
+        "team": "Chelsea",
+        "pic": "img/players/hazard.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Kevin Debruyne",
+        "team": "Chelsea",
+        "pic": "img/players/debruyne.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Kevin Mirallas",
+        "team": "Everton",
+        "pic": "img/players/mirallas.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Moussa Dembele",
+        "team": "Tottenham",
+        "pic": "img/players/dembele.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Vincent Kompany",
+        "team": "Manchester City",
+        "pic": "img/players/kompany.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Marouanne Fellaini",
+        "team": "Manchester United",
+        "pic": "img/players/fellaini.jpg"
+    }
+]
